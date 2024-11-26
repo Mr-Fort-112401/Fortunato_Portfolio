@@ -1,0 +1,185 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f6faf2;
+    line-height: 1.1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #62df0f;
+}
+
+/* Header */
+header {
+    background: #343636;
+    color: #f8f2f785;
+    padding: 0px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #e6a416;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Profile Section */
+#profile {
+    padding: 120px 20px 60px;
+    background: #399696;
+}
+
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid #333;
+}
+.background-video {
+    position: fixed;
+}
+.background-video {
+    position: fixed
+    ;
+    top: 10;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video scales and crops to fit */
+    z-index: -1; /* Sends video behind the content */
+  }
+  
+/* Skills Section */
+#skills .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.skill {
+    background: #23c9d4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+.skill img {
+    height: 200px;
+}
+
+/* Hobbies Section */
+#hobbies .hobbies-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+#hobbies .hobbies-list li {
+    margin: 10px 0;
+}
+
+#hobbies .hobbies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.hobby {
+    background: #1db6d1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(191, 194, 41, 0.5);
+}
+
+
+.hobby img {
+    height: 300px;
+}
+
+/* Education Section */
+#education .education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.education-item {
+    background: #566b08;
+    padding: 50px;
+    border-radius: 90px;
+    box-shadow:  7px 6px rgba(29, 1, 1, 0.1);
+}
+
+.education-item img {
+    height: 200px;
+}
+
+/* Socials Section */
+#socials .socials-list {
+    list-style: none;
+    padding: 0;
+}
+
+.socials-list img{
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#socials .socials-list li {
+    margin: 100   px 100;
+}
+
+#socials .socials-list li a {
+    color: #b1dd11;
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+#socials .socials-list li a:hover {
+    color: #007BFF;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
